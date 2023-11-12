@@ -69,7 +69,7 @@ function pickComputermove(){
         }
         
         function updateScore(){
-            document.querySelector('.js-result-moves').innerHTML = `Moves: You picked <img src="${playerMove}.png" class = "picked-icon"> Computer picked <img src="/${computerMove}.png" class = "picked-icon">`;
+            document.querySelector('.js-result-moves').innerHTML = `Moves: You picked <img src="${playerMove}.png" class = "picked-icon"> Computer picked <img src="${computerMove}.png" class = "picked-icon">`;
             document.querySelector('.js-result-pick').innerHTML = `Result: ${result}`;
             document.querySelector('.js-result-score').innerHTML = `Score: Wins: ${score.win} Losses: ${score.lose} Ties: ${score.tie}`;
         }
