@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    font-family: Arial;
+}
+
+.pick-icon{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 120px; 
+}
+.picked-icon{
+    height: 50px; 
+}
+.pick-button{
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    align-self: center;
+}
+.reset-score{
+    font-size: 15px;
+    padding: 10px 20px;
+    font-style: bold;
+}
+
